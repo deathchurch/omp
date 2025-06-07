@@ -77,8 +77,9 @@
         {
           "properties": {
             "charged_icon": "\ue22f ",
-            "charging_icon": "\uf583 ",
-            "discharging_icon": "\uf582 "
+            "charging_icon": "󰂄 ",
+            "discharging_icon": "󰂌 ",
+            "not_charging_icon": "󰁹 "
           },
           "template": " {{ if not .Error }}{{ .Icon }}{{ .Percentage }}{{ end }}{{ .Error }}\uf295 ",
           "foreground": "#ffffff",
